@@ -1,0 +1,77 @@
+<style>
+    /* we write style element so we can wiite css inside it 
+    button = we are targeting button we yellow colour is button.
+    background-color = left side css property it tells what we are changing.
+    red = css value.
+    ; = end style with ; in css. 
+    for text colour one syntex is ::: colour  = white
+
+    */
+    .subscribe-button{
+        /* background color 
+        rgba is  red,green, blue. maximum we can choose 250 
+        */
+        background-color: rgb(200,0,0);
+
+        /* text color */
+        color: white;
+
+        /* we dont need border so none */
+        border: none;
+
+        /* for | shape */
+        height: 36px;
+
+        /* for - shape */
+        width: 150px;
+      
+        /* to make curve on the boarder */
+        border-radius: 2px;
+
+        /* hand sign dakhauna ko lagi */
+        cursor:pointer;
+
+        /* to make gap betwwen two buttons we use margin term */
+        margin-right:8px;
+    }
+
+
+    .join-button{
+ background-color: white;
+ color:rgb(41,118,211); 
+ border-color: rgb(41,118,211); 
+
+ /* to get same color everywhere */
+ border-style: solid;
+ border-width: 1px;
+height:36px;
+width:62px;
+border-radius: 2px;
+cursor:pointer;
+    }
+
+
+    .tweet-button{
+background-color: rgb(2,158,255);
+color: white;
+border: none;
+height: 36px;
+width: 74px;
+border-radius: 18px;
+ font-size:15px;  
+font-weight: bold; 
+cursor: pointer;
+margin-left:8px;
+}
+
+
+    
+</style>
+
+<!-- class attribute is used to make it unique from other button and .suscribe-button will be used in css  -->
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+<button class="join-button">JOIN</button>
+
+<button class = "tweet-button">Tweet</button>
